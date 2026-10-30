@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Kid Mode
+Comment=Enforce a child-safe KDE session
+Exec=/home/CHANGE_ME/bazzite-kid-mode/scripts/kid_mode_launcher.sh
+Terminal=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true

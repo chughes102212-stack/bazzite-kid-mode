@@ -1,0 +1,27 @@
+allowed_apps:
+  - "firefox"
+  - "vlc"
+  - "org.kde.konsole"
+  - "org.kde.dolphin"
+  - "libreoffice-writer"
+
+blocked_processes:
+  - "steam"
+  - "discord"
+  - "teams"
+  - "chromium"
+  - "google-chrome"
+  - "brave"
+  - "minecraft"
+
+allowed_time_windows:
+  - start: "08:00"
+    end: "18:00"
+
+safe_browser_url: "https://example.com"
+
+safe_browser_command: "firefox --new-window https://example.com"
+
+messages:
+  blocked: "The app is blocked during your allowed time. Please ask a parent."
+  time_limit: "Your screen time is over for now. Please ask a parent to extend it."
